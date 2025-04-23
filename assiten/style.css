@@ -1,0 +1,104 @@
+
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    .Logo {
+      width: 250px;
+      background-color: #3CAC3C;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10px;
+    }
+    .Logo img {
+      width: 80%;
+      margin-bottom: 50px;
+    }
+    .Logo button {
+      background-color: #114D11;
+      color: black;
+      font-size: 20px;
+      padding: 10px 30px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .main {
+      flex: 1;
+      background-color: #ffffff;
+      padding: 40px;
+      position: relative;
+    }
+    .main h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #000;
+      border-radius: 4px;
+    }
+
+    .home-icon {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+    }
+
+    .home-icon img {
+      width: 24px;
+      margin-right: 10px;
+    }
+
+    .search-box {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-box input {
+      padding: 8px;
+      border: 1px solid #000;
+      background-color: #f7e4f5;
+    }
+
+    .search-box img {
+      width: 24px;
+      margin-left: 5px;
+    }
+
+    .register-button  {
+      background-color: #114D11;
+      color: black;
+      font-size: 20px;
+      padding: 10px 30px;
+      border: none;
+      cursor: pointer;
+    }
+    .Logo button:hover,
+    .register-button:hover {
+      background-color: #2e7d32; /* Verde más oscuro */
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+      transition: all 0.3s ease;
+    }
+    
