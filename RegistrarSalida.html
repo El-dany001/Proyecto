@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assents/css/RegistrarSalida.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="./assents/static/img/Sena_Colombia_logo.svg.png" alt="">
+            </div>
+            <a href="">Gestion de Inventarios</a>
+            <a href="">Registro de Materiales</a>
+            <a href="">Control de Inventario</a>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <h2>Registro de Salida</h1>
+        <h4>Nombre</h4>
+        <input type="text" placeholder="Nombre">
+        <h4>Stock Actual</h4>
+        <input type="text" placeholder="20">
+        <h4>Cantidad a Retirar</h4>
+        <input type="text" placeholder="...">
+        <h4>Motivo</h4>
+        <label for="Categoria"></label>
+        <select name="Categoria" id="Categoria">
+            <option value="">Daño</option>
+            <option value="">Reparación</option>
+        </select>
+        <button class="Validar">Validar Stock</button>
+        <button class="Confirmar">Confirmar Salida</button>
+    </div>
+</body>
+</html>

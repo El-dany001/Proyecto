@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+.menu{
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    background-color: green;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    padding: 50px;
+}
+.menu a:hover{
+    background-color: rgb(41, 154, 3);
+    border-radius: 20px;
+}
+.logo img{
+    width: 150px;
+}
+.contenedor{
+    background-color: orange;
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+.contenedor input{
+    border-radius: 10px;
+    width: 300px;
+}
+.contenedor select{
+    width: 150px;
+    border-radius: 10px;
+}
+.contenedor button{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(6, 148, 13);
+}
+.Guardar{
+    position: absolute;
+    left: 70px;
+    top: 400px;
+}
+.Cancelar{
+    position: absolute;
+    left: 250px;
+    top: 400px;
+}
