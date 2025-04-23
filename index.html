@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestión de Préstamo - SENA</title>
+  <link rel="stylesheet" href="assest/style.css" />
+</head>
+<body>
+
+  
+  <nav class="sidebar">
+    <img src="assest/logo_sena.png" alt="Logo SENA" class="logo" />
+    <div class="menu">
+      <button class="menu-item activo">Gestión de préstamo</button>
+      <button class="sub-item">Registro de préstamo</button>
+      <button class="sub-item">Seguimiento de préstamo</button>
+      <button class="sub-item">Renovación de préstamo</button>
+      <button class="sub-item">Devolución de préstamo</button>
+      <button class="sub-item">Reportes</button>
+    </div>
+  </nav>
+
+  
+  <div class="main-content">
+    
+    <div class="formulario">
+      <h3>Registro de Préstamo</h3>
+      <label>Fecha de inicio:</label>
+      <input type="date" />
+      <label>Fecha de vencimiento:</label>
+      <input type="date" />
+      <label>Nombres y apellidos:</label>
+      <input type="text" />
+      <label>Curso:</label>
+      <input type="text" />
+      <label>Tipo:</label>
+      <input type="text" />
+      <label>Especificación de elementos:</label>
+      <input type="text" />
+      <button type="submit">Registrar Préstamo</button>
+    </div>
+
+    
+    <div class="formulario">
+      <h3>Renovación de Préstamo</h3>
+      <label>Fecha de inicio:</label>
+      <input type="date" />
+      <label>Fecha de vencimiento:</label>
+      <input type="date" />
+      <label>Usuario:</label>
+      <input type="text" />
+      <label>Artículo:</label>
+      <input type="text" />
+      <label>Cantidad:</label>
+      <input type="number" min="1" />
+      <button type="submit">Renovar</button>
+    </div>
+
+    
+    <div class="formulario">
+      <h3>Devolución de Préstamo</h3>
+      <label>Estado del objeto:</label>
+      <input type="text" />
+      <label>Observación:</label>
+      <input type="text" />
+      <label>Sanción:</label>
+      <input type="text" />
+      <button type="submit">Confirmar Devolución</button>
+      <button type="reset">Cancelar</button>
+    </div>
+  </div>
+</body>
+</html>
